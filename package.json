@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-saritasa-react",
+  "version": "0.0.1",
+  "description": "Saritasa's shareable config for eslint in react projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "saritasa",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saritasa/eslint-config-saritasa-react.git"
+  },
+  "author": "Konstantin Petryaev <konstantin.petryaev@saritasa.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.10.0",
+    "babel-eslint": "^8.0.2"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-saritasa-base": "0.0.2"
+  }
+}
