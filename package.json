@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/saritasa/eslint-config-saritasa-react.git"
+    "url": "https://github.com/saritasa/eslint-config-react.git"
   },
   "author": "Konstantin Petryaev <konstantin.petryaev@saritasa.com>",
   "license": "MIT",
