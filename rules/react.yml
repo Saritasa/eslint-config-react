@@ -53,7 +53,7 @@ rules:
     - allowMultiline: true
 
   react/jsx-handler-names:
-    - off
+    - error
     - eventHandlerPrefix: 'handle'
       eventHandlerPropPrefix: 'on'
 
@@ -89,7 +89,7 @@ rules:
     - allowAllCaps: true
       ignore: []
   react/sort-prop-types:
-    - off
+    - error
     - ignoreCase: true
       callbacksLast: false
       requiredFirst: false
@@ -97,11 +97,11 @@ rules:
   react/jsx-sort-prop-types: off
 
   react/jsx-sort-props:
-    - off
+    - error
     - ignoreCase: true
       callbacksLast: false
       shorthandFirst: false
-      shorthandLast: false
+      shorthandLast: true
       noSortAlphabetically: false
       reservedFirst: true
 
@@ -139,6 +139,7 @@ rules:
     - order:
       - static-methods
       - lifecycle
+      - /^handle.+$/'
       - /^on.+$/'
       - getters
       - setters
@@ -224,7 +225,8 @@ settings:
         - .json
   react:
     pragma: React
-    version: '15.0'
+    version: '16.0'
+
   propWrapperFunctions:
     - forbidExtraProps
     - exact

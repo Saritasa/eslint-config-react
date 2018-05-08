@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-saritasa-react",
+  "name": "@saritasa/eslint-config-react",
   "version": "0.0.1",
   "description": "Saritasa's shareable config for eslint in react projects",
   "main": "index.js",
@@ -23,7 +23,7 @@
     "babel-eslint": "^8.0.2"
   },
   "dependencies": {
-    "eslint-config-prettier": "^2.7.0",
-    "eslint-config-saritasa-base": "0.0.2"
+    "@saritasa/eslint-config-base": "0.0.3",
+    "eslint-config-prettier": "^2.7.0"
   }
 }

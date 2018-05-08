@@ -1,10 +1,10 @@
-# eslint-config-saritasa-react
+# @saritasa/eslint-config-react
 
 Config is based on saritasa-base config with flow
-1. Install `eslint-config-saritasa-react` and peer dependencies (npm warns about them) 
+1. Install `@saritasa/eslint-config-react` and peer dependencies (npm warns about them) 
 
     ```sh
-    $ npm install --save-dev eslint-config-saritasa-react
+    $ npm install --save-dev @saritasa/eslint-config-react
     ```
 
-2. Add `"extends": "eslint-config-saritasa-react"` to your `.eslintrc` file
+2. Add `"extends": "@saritasa/eslint-config-react"` to your `.eslintrc` file
