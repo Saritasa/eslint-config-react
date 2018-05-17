@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    require.resolve('eslint-config-saritasa-base'),
+    require.resolve('@saritasa/eslint-config-base'),
     './.eslintrc.yml'
   ]
 };
