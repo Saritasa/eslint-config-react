@@ -1,3 +1,6 @@
+### 0.0.4
+Update @saritasa/eslint-config-base version.
+
 ### 0.0.3
 - Resolve issue with unscoped base config required.
 - Update handlers' naming rules.

@@ -23,7 +23,7 @@
     "babel-eslint": "^8.0.2"
   },
   "dependencies": {
-    "@saritasa/eslint-config-base": "0.0.3",
+    "@saritasa/eslint-config-base": "0.0.4",
     "eslint-config-prettier": "^2.7.0"
   }
 }
