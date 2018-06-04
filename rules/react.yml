@@ -216,6 +216,8 @@ rules:
     - error
     - props: never
       children: never
+  react/no-access-state-in-setstate: error
+  react/no-this-in-sfc: error
 
 settings:
   import/resolver:
