@@ -70,9 +70,7 @@ rules:
 
   react/jsx-no-bind:
     - error
-    - ignoreRefs: true
-      allowArrowFunctions: true
-      allowBind: false
+    - allowArrowFunctions: true
 
   react/jsx-no-duplicate-props:
     - error
