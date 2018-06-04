@@ -137,14 +137,17 @@ rules:
     - order:
       - static-methods
       - lifecycle
-      - /^handle.+$/'
-      - /^on.+$/'
+      - instance-variables
+      - /^handle.+$/
       - getters
       - setters
-      - /^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/
+      - /^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$|.*Props$)).+$/
       - everything-else
-      - /^render.+$/
+      - /(^render.+$|^(get)(?!(ViewProps$|FormProps$)).+Props$)/
+      - getViewProps
+      - getFormProps
       - render
+      - /^on[A-Z].+$/
   react/jsx-wrap-multilines:
     - error
     - declaration: true
