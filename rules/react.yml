@@ -110,7 +110,7 @@ rules:
   react/no-did-mount-set-state: off
   react/no-did-update-set-state: error
   react/no-will-update-set-state: error
-  react/no-direct-mutation-state: off
+  react/no-direct-mutation-state: error
   react/no-is-mounted: error
   react/no-multi-comp:
     - error
