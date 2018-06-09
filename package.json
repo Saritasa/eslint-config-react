@@ -1,6 +1,6 @@
 {
   "name": "@saritasa/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Saritasa's shareable config for eslint in react projects",
   "main": "index.js",
   "scripts": {
