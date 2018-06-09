@@ -1,3 +1,6 @@
+### 0.1.1
+- Add type annotations into react/sort-comp rule.
+
 ### 0.1.0
 - Update @saritasa/eslint-config-base version.
 - Change react/sort-comp order to make it strict.

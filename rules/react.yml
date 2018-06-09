@@ -136,6 +136,7 @@ rules:
     - error
     - order:
       - static-methods
+      - type-annotations
       - lifecycle
       - instance-variables
       - /^handle.+$/
