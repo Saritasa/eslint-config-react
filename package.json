@@ -29,5 +29,8 @@
   "dependencies": {
     "@saritasa/eslint-config-base": "^0.1.0",
     "eslint-config-prettier": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-flowtype": "^2.50.0"
   }
 }
